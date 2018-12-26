@@ -1,0 +1,4 @@
+docker build -t ubuntu_ruby .
+#docker run -it --rm ubuntu_ruby
+docker run -it --rm -v `echo $PWD`:/tmp ubuntu_ruby
+
